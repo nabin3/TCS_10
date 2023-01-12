@@ -1,0 +1,20 @@
+Find the smallest number in an array
+
+solution_1: we can sort the array in ascending order and print the 0th index number
+
+Time_complexity for solution_1 : O(N*log(N))
+Space_complexity for solution_1 : O(1)
+
+
+solution_2: using a min variable
+
+intution : we can maintain a min variable and update it whenever our current element is less min vaiable's value
+
+aproach :
+	-> create a variable and initialize it with arr[0]
+	-> use for loop to compare with other elements of the array
+	-> update the variable with current array element, if current array element is less than the value of min variable
+	-> print the min variable
+
+Time_complexity: O(N)
+Space_complexity: O(1)

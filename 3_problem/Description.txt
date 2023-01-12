@@ -1,0 +1,9 @@
+Find second smallest and second largest number in an array
+
+Aproach: 
+	-> Take 4 varible, small,second_small,large,second_large and assigne INT_MAX to small and second_small and INT_MIN to large and second large
+	-> Traverse the array and update value of small and large variale 
+	-> Now again Traverse the array and update second_small and second_large varible when current element is not equal to small and large varible respectively
+
+	Time_Complexity: O(N)
+	Space_Complexity: O(1)
